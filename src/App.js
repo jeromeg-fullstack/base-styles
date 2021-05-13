@@ -7,7 +7,7 @@ const App = () => {
 		<div className='page'>
 			<div className='container'>
 				<div className='row'>
-					<div className='col-half'>
+					<div className='col'>
 						<Card />
 					</div>
 					<div className='col-half'>
@@ -16,7 +16,13 @@ const App = () => {
 					<div className='col-half'>
 						<Card />
 					</div>
-					<div className='col-half'>
+					<div className='col-third'>
+						<Card />
+					</div>
+					<div className='col-third'>
+						<Card />
+					</div>
+					<div className='col-third'>
 						<Card />
 					</div>
 				</div>

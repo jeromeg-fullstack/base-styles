@@ -1,11 +1,14 @@
 .col {
-  background-color: $color-bg-4;
   flex-grow: 0;
-  max-width: 100%;
+  // max-width: 100%;
   flex-basis: 100%;
 }
 
 .col-half {
   flex: 0 0 50%;
 
+}
+
+.col-third {
+  flex: 0 0 33.3333333%;
 }
