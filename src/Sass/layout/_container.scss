@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: $color-bg-3;
+  max-width: 965px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
